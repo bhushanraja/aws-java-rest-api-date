@@ -17,7 +17,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: com.date.StreamLambdaHandler
-      CodeUri: s3://devops-files-bucket/aws-java-rest-api-date/aws-java-rest-api-date-0.0.1-SNAPSHOT.zip
+      CodeUri: s3://devops-files-bucket/aws-java-rest-api-date/aws-java-rest-api-date-0.0.2-SNAPSHOT.zip
       Policies: AWSLambdaBasicExecutionRole
       Events:
         GetResource:
